@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\socketsubsystemeik\\private\\socketsubsystemeikmodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\socketsubsystemeik\\definitions.socketsubsystemeik.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\socketsubsystemeik\\private\\socketsubsystemeikmodule.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

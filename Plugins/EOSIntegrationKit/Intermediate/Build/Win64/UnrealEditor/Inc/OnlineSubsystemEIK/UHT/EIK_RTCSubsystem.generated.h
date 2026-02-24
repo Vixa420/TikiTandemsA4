@@ -1,0 +1,238 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "SdkFunctions/RTCInterface/EIK_RTCSubsystem.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FEIK_NotificationId;
+struct FEIK_ProductUserId;
+struct FEIK_RTC_Option;
+struct FEIK_RTC_ParticipantStatusChangedCallbackInfo;
+struct FEIK_RTCAdmin_UserToken;
+struct FEIK_RTCAudio_AudioBuffer;
+struct FEIK_RTCAudio_InputDeviceInformation;
+struct FEIK_RTCAudio_OutputDeviceInformation;
+#ifdef ONLINESUBSYSTEMEIK_EIK_RTCSubsystem_generated_h
+#error "EIK_RTCSubsystem.generated.h already included, missing '#pragma once' in EIK_RTCSubsystem.h"
+#endif
+#define ONLINESUBSYSTEMEIK_EIK_RTCSubsystem_generated_h
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_17_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FEIK_RTC_ParticipantStatusChangedCallbackInfo_Statics; \
+	ONLINESUBSYSTEMEIK_API static class UScriptStruct* StaticStruct();
+
+
+template<> ONLINESUBSYSTEMEIK_API UScriptStruct* StaticStruct<struct FEIK_RTC_ParticipantStatusChangedCallbackInfo>();
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_59_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTC_OnDisconnectedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTC_OnDisconnectedCallback, const EEIK_Result Result, FEIK_ProductUserId const& LocalUserId, const FString& RoomName);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_60_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTC_OnParticipantStatusChangedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTC_OnParticipantStatusChangedCallback, FEIK_RTC_ParticipantStatusChangedCallbackInfo const& Data);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_61_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTC_OnRoomStatisticsUpdatedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTC_OnRoomStatisticsUpdatedCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, const FString& Statistic);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_62_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTC_OnBlockParticipantCallback_DelegateWrapper(const FScriptDelegate& EIK_RTC_OnBlockParticipantCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, FEIK_ProductUserId const& ParticipantId, bool bBlocked);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_63_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTC_OnJoinRoomCallback_DelegateWrapper(const FScriptDelegate& EIK_RTC_OnJoinRoomCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, TArray<FEIK_RTC_Option> const& Options);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_64_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTC_OnLeaveRoomCallback_DelegateWrapper(const FScriptDelegate& EIK_RTC_OnLeaveRoomCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId, const FString& RoomName);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_65_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAdmin_OnKickCompleteCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAdmin_OnKickCompleteCallback, const EEIK_Result ResultCode);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_66_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAdmin_OnQueryJoinRoomTokenCompleteCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAdmin_OnQueryJoinRoomTokenCompleteCallback, const EEIK_Result ResultCode, const FString& RoomName, FEIK_ProductUserId const& LocalUserId, TArray<FEIK_RTCAdmin_UserToken> const& UserTokens);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_67_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnAudioBeforeRenderCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnAudioBeforeRenderCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, FEIK_RTCAudio_AudioBuffer const& AudioBuffer, FEIK_ProductUserId const& ParticipantId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_68_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnAudioDevicesChangedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnAudioDevicesChangedCallback);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_69_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnAudioInputStateCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnAudioInputStateCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, TEnumAsByte<EEIK_ERTCAudioInputStatus> const& AudioInputState);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_70_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnAudioOutputStateCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnAudioOutputStateCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, TEnumAsByte<EEIK_ERTCAudioOutputStatus> const& AudioOutputState);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_71_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnParticipantUpdatedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnParticipantUpdatedCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, FEIK_ProductUserId const& ParticipantId, bool bSpeaking, TEnumAsByte<EEIK_ERTCAudioStatus> const& AudioStatus);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_72_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnQueryInputDevicesInformationCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnQueryInputDevicesInformationCallback, const EEIK_Result ResultCode);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_73_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnQueryOutputDevicesInformationCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnQueryOutputDevicesInformationCallback, const EEIK_Result ResultCode);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_74_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnRegisterPlatformUserCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnRegisterPlatformUserCallback, const EEIK_Result ResultCode, const FString& PlatformUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_75_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnSetInputDeviceSettingsCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnSetInputDeviceSettingsCallback, const EEIK_Result ResultCode, const FString& DeviceId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_76_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnSetOutputDeviceSettingsCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnSetOutputDeviceSettingsCallback, const EEIK_Result ResultCode, const FString& DeviceId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_77_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnUnregisterPlatformUserCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnUnregisterPlatformUserCallback, const EEIK_Result ResultCode, const FString& PlatformUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_78_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnUpdateParticipantVolumeCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnUpdateParticipantVolumeCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& ParticipantId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_79_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnUpdateReceivingCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnUpdateReceivingCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_80_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnUpdateReceivingVolumeCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnUpdateReceivingVolumeCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_81_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnUpdateSendingCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnUpdateSendingCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_82_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCAudio_OnUpdateSendingVolumeCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCAudio_OnUpdateSendingVolumeCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_83_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCData_OnDataReceivedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCData_OnDataReceivedCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, TArray<uint8> const& Data, FEIK_ProductUserId const& ParticipantId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_84_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCData_OnParticipantUpdatedCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCData_OnParticipantUpdatedCallback, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, FEIK_ProductUserId const& ParticipantId, TEnumAsByte<EEIK_ERTCDataStatus> const& DataStatus);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_85_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCData_OnUpdateReceivingCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCData_OnUpdateReceivingCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId, const FString& RoomName, FEIK_ProductUserId const& ParticipantId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_86_DELEGATE \
+ONLINESUBSYSTEMEIK_API void FEIK_RTCData_OnUpdateSendingCallback_DelegateWrapper(const FScriptDelegate& EIK_RTCData_OnUpdateSendingCallback, const EEIK_Result ResultCode, FEIK_ProductUserId const& LocalUserId);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execEIK_RTCData_UpdateSending); \
+	DECLARE_FUNCTION(execEIK_RTCData_UpdateReceiving); \
+	DECLARE_FUNCTION(execEIK_RTCData_SendData); \
+	DECLARE_FUNCTION(execEIK_RTCData_RemoveNotifyParticipantUpdated); \
+	DECLARE_FUNCTION(execEIK_RTCData_RemoveNotifyDataReceived); \
+	DECLARE_FUNCTION(execEIK_RTCData_AddNotifyParticipantUpdated); \
+	DECLARE_FUNCTION(execEIK_RTCData_AddNotifyDataReceived); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_UpdateSendingVolume); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_UpdateSending); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_UpdateReceivingVolume); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_UpdateReceiving); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_UpdateParticipantVolume); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_UnregisterPlatformUser); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_SetOutputDeviceSettings); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_SetInputDeviceSettings); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_SendAudio); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RemoveNotifyParticipantUpdated); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RemoveNotifyAudioOutputState); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RemoveNotifyAudioInputState); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RemoveNotifyAudioDevicesChanged); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RemoveNotifyAudioBeforeSend); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RemoveNotifyAudioBeforeRender); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_RegisterPlatformUser); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_QueryOutputDevicesInformation); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_QueryInputDevicesInformation); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_OutputDeviceInformation_Release); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_InputDeviceInformation_Release); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_GetOutputDevicesCount); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_GetInputDevicesCount); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_CopyOutputDeviceInformationByIndex); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_CopyInputDeviceInformationByIndex); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_AddNotifyParticipantUpdated); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_AddNotifyAudioOutputState); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_AddNotifyAudioInputState); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_AddNotifyAudioDevicesChanged); \
+	DECLARE_FUNCTION(execEIK_RTCAudio_AddNotifyAudioBeforeRender); \
+	DECLARE_FUNCTION(execEIK_RTCAdmin_QueryJoinRoomToken); \
+	DECLARE_FUNCTION(execEIK_RTCAdmin_Kick); \
+	DECLARE_FUNCTION(execEIK_RTCAdmin_CopyUserTokenByUserId); \
+	DECLARE_FUNCTION(execEIK_RTCAdmin_CopyUserTokenByIndex); \
+	DECLARE_FUNCTION(execEIK_RTC_SetSetting); \
+	DECLARE_FUNCTION(execEIK_RTC_SetRoomSetting); \
+	DECLARE_FUNCTION(execEIK_RTC_RemoveNotifyRoomStatisticsUpdated); \
+	DECLARE_FUNCTION(execEIK_RTC_RemoveNotifyParticipantStatusChanged); \
+	DECLARE_FUNCTION(execEIK_RTC_RemoveNotifyDisconnected); \
+	DECLARE_FUNCTION(execEIK_RTC_LeaveRoom); \
+	DECLARE_FUNCTION(execEIK_RTC_JoinRoom); \
+	DECLARE_FUNCTION(execEIK_RTC_BlockParticipant); \
+	DECLARE_FUNCTION(execEIK_RTC_AddNotifyRoomStatisticsUpdated); \
+	DECLARE_FUNCTION(execEIK_RTC_AddNotifyParticipantStatusChanged); \
+	DECLARE_FUNCTION(execEIK_RTC_AddNotifyDisconnected);
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUEIK_RTCSubsystem(); \
+	friend struct Z_Construct_UClass_UEIK_RTCSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(UEIK_RTCSubsystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/OnlineSubsystemEIK"), NO_API) \
+	DECLARE_SERIALIZER(UEIK_RTCSubsystem)
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UEIK_RTCSubsystem(); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	UEIK_RTCSubsystem(UEIK_RTCSubsystem&&); \
+	UEIK_RTCSubsystem(const UEIK_RTCSubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEIK_RTCSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEIK_RTCSubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEIK_RTCSubsystem) \
+	NO_API virtual ~UEIK_RTCSubsystem();
+
+
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_87_PROLOG
+#define FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_INCLASS_NO_PURE_DECLS \
+	FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h_90_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> ONLINESUBSYSTEMEIK_API UClass* StaticClass<class UEIK_RTCSubsystem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_CompileEIK542_Plugins_EOSIntegrationKit_Source_OnlineSubsystemEIK_SdkFunctions_RTCInterface_EIK_RTCSubsystem_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

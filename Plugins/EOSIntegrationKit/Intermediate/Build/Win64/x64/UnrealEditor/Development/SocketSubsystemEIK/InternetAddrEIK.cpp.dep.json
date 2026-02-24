@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\socketsubsystemeik\\private\\internetaddreik.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\socketsubsystemeik\\definitions.socketsubsystemeik.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\socketsubsystemeik\\public\\internetaddreik.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_common.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_base.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_result.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikshared\\public\\eossharedtypes.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

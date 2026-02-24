@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EIKLoginMethods.cpp.obj": [
+			"EIKLoginMethods.init.gen.cpp.obj",
+			"GoogleLogin_SLK.gen.cpp.obj",
+			"EIKLoginMethods.cpp.obj",
+			"GoogleLogin_SLK.cpp.obj"
+		]
+	}
+}

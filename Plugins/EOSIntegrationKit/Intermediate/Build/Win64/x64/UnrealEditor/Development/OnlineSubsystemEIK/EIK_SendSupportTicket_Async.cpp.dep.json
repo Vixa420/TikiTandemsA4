@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\onlinesubsystemeik\\asyncfunctions\\supporttickets\\eik_sendsupportticket_async.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\onlinesubsystemeik\\definitions.onlinesubsystemeik.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\onlinesubsystemeik\\asyncfunctions\\supporttickets\\eik_sendsupportticket_async.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\blueprintasyncactionbase.h",
+            "b:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\blueprintasyncactionbase.generated.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\http.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\platformhttp.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\windows\\windowsplatformhttp.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\online\\http\\public\\genericplatform\\genericplatformhttp.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eosintegrationkit\\public\\eiksettings.h",
+            "b:\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\runtimeoptionsbase.h",
+            "b:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\runtimeoptionsbase.generated.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\unrealeditor\\inc\\eosintegrationkit\\uht\\eiksettings.generated.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\unrealeditor\\inc\\onlinesubsystemeik\\uht\\eik_sendsupportticket_async.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

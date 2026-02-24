@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EIKEditor.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKEditor\EIKEditor.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKEditor\EosIconStyle.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKEditor\Default.rc2.res"
+/OUT:"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKEditor\UnrealEditor-EIKEditor.lib"

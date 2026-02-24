@@ -1,0 +1,30 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\onlinesubsystemeik\\private\\windows\\windowseoshelpers.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\onlinesubsystemeik\\definitions.onlinesubsystemeik.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\onlinesubsystemeik\\private\\windows\\windowseoshelpers.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\onlinesubsystemeik\\private\\eoshelpers.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_auth_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_auth_types_deprecated.inl",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_common.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_base.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_result.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_integratedplatform_types.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlineexternaluiinterface.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinemessageinterface.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinekeyvaluepair.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlinedelegatemacros.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\onlineerror.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikshared\\public\\eosshared.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_version.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\windows\\eos_windows.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

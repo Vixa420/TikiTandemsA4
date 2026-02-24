@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EIKLoginMethods.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKLoginMethods\Module.EIKLoginMethods.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKLoginMethods\EIKLoginMethods.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKLoginMethods\GoogleLogin_SLK.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKLoginMethods\Default.rc2.res"
+/OUT:"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKLoginMethods\UnrealEditor-EIKLoginMethods.lib"

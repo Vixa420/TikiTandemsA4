@@ -1,0 +1,35 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikvoicechat\\private\\eosvoicechatfactory.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\m3ds_3080\\desktop\\compileeik542\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\eikvoicechat\\definitions.eikvoicechat.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikvoicechat\\public\\eosvoicechatfactory.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikshared\\public\\eosshared.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_base.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_common.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_result.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_version.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikshared\\public\\ieossdkmanager.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_init.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_integratedplatform_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikvoicechat\\public\\eosvoicechatlog.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikvoicechat\\private\\windows\\windowseosvoicechat.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\eikvoicechat\\public\\eosvoicechat.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\voicechat\\voicechat\\source\\public\\voicechat.h",
+            "b:\\ue_5.4\\engine\\plugins\\online\\voicechat\\voicechat\\source\\public\\voicechatresult.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_rtc_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_rtc_audio_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_rtc_audio_types_deprecated.inl",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_lobby_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_ui_types.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_ui_keys.h",
+            "c:\\users\\m3ds_3080\\desktop\\compileeik542\\plugins\\eosintegrationkit\\source\\thirdparty\\eiksdk\\include\\eos_ui_buttons.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

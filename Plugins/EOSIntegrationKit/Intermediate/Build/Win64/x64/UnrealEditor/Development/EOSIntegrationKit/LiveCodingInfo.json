@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.EOSIntegrationKit.cpp.obj": [
+			"EOSIntegrationKit.init.gen.cpp.obj",
+			"EIKSettings.cpp.obj",
+			"EOSIntegrationKit.cpp.obj"
+		]
+	}
+}

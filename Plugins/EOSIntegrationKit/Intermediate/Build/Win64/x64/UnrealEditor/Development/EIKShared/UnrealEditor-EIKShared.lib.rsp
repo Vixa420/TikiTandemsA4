@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-EIKShared.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\SharedPCH.CoreUObject.Project.ValApi.Cpp20.h.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKShared\EIKSharedModule.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKShared\EOSSDKManager.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKShared\EOSShared.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKShared\WindowsEOSSDKManager.cpp.obj"
+"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKShared\Default.rc2.res"
+/OUT:"C:\Users\M3DS_3080\Desktop\CompileEIK542\Plugins\EOSIntegrationKit\Intermediate\Build\Win64\x64\UnrealEditor\Development\EIKShared\UnrealEditor-EIKShared.lib"
